@@ -1,0 +1,56 @@
+body {
+    background-color: #000;
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 20px;
+}
+
+#presentations_a {
+    float: left;
+    height: 500px;
+    width: 300px;
+}
+
+#script_a {
+    float: right;
+    text-size-adjust: 500px;
+}
+
+#presentations_b {
+    float:right;
+    height: 500px;
+    width: 300px;
+}
+
+#script_b {
+    float:left;
+}
+
+#presentations_alessandro {
+    float: left;
+    height: 500px;
+    width: 400px;
+}
+
+#presentations_eliana {
+    float: right;
+    height: 500px;
+    width: 600px; 
+}
+
+div {
+    text-align: center;
+    height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    font-size: 30px;
+    list-style-type: none;
+}
+
+#lacreatura {
+    text-align: right;
+}
