@@ -21,8 +21,24 @@
         </div>
     </nav>
     <main>
-        <h1>TERMINARÉ CUANDO VUELVA DE ALMORZAR >:C</h1>
-        <img src="images/kiridonals.png" alt="jodete si no lo ves">
+        <div id="handbook">
+            <h1>Bienvenido al Handbook Electrónico para Estudiantes</h1>
+                    <img class="imageContainer visible" src="handbook/pc-book.unlock.jpg" style="height: 100%; width: 80%;">
+                    <img id="device" class="imageContainer hide" src="handbook/pc-book.icons.png" usemap="#monopad" style="height: 100%; width: 80%;">
+
+                    <map name="monopad">
+                        <area shape="rect" coords="118, 529, 343, 732" alt="map" href="map.html">
+                        <area shape="rect" coords="657, 531, 888, 735" alt="rules" href="rules.html">
+                        <area shape="rect" coords="1189, 522, 1420, 727" alt="cards" href="cards.html">
+                    </map>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("handbook").onclick = function () {
+                document.getElementById("device").classList.add("visible");
+            }
+        </script>
+        <!--<h1>TERMINARÉ CUANDO VUELVA DE ALMORZAR >:C</h1>
+        <img src="images/kiridonals.png" alt="jodete si no lo ves">-->
     </main>
 </body>
 </html>
