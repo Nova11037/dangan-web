@@ -226,3 +226,7 @@ a {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.cap_image {
+    width: 50%;
+}
